@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+            <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <title>Bootstrap 4</title>
+
+<style>
+      .imgs{
+            height: 250px;
+            width: 250px;
+      }
+
+      .my-link-style:hover{
+            text-decoration: underline;
+      }
+      #feedback{
+            background: #93B5C6;
+            padding: 4% 5%;
+      }
+                        /* carousel */
+      .hr-style{
+            border: 5px dotted white;
+            border-bottom: none;
+            width: 100px;      
+      }
+      .carousel-item{
+            padding: 5% 10%;
+            font-size: 20px;
+            text-align: center;
+            font-style: italic; 
+      }
+      .feedback-img{
+            width: 200px;
+            height: auto;
+      }
+      .carousel-indicators{
+            bottom: -10px;
+      }
+</style>
+
+  </head>
+  <body>
+
+      
+                                          <!--  ***   Learn with SA -->
+      <div class="container">
+                                     <!--  ***   navigation menu -->
+            <header>
+                 <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed">
+                       <a href="" class="navbar-brand">
+                             <img src="cloud1.png" alt="" style="height: 50px; width: 70px;">
+                       </a>
+
+                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active"><a class="nav-link" href="">HOME</a></li>
+                              <li class="nav-item"><a class="nav-link" href="">TUTORIAL</a></li>
+                              <li class="nav-item"><a class="nav-link" href="">ABOUT</a></li>
+                              <li class="nav-item"><a class="nav-link" href="">CONTACT US</a></li>
+                        </ul>
+                      </div>
+
+                       
+                 </nav>  
+            </header>
+            <main>
+
+
+                  <!-- carousel section   ***     start here -->
+
+                  <div class="mt-3">
+                        <div id="feedback">
+                              <div class="section-title">
+                                    <h3 class="text-center">Facebook</h3>
+                              <hr class="hr-style">
+                              </div>
+                              <div class="row">
+                                    <div class="col-lg-12">
+                                          <div id="carouselExampleIndicators" data-interval="3000" data-pause="hover" class="carousel slide" data-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                  <div class="text-white carousel-item active text-center">
+                                                        <P><i style="color: blue;">Lorem1</i> ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                        odio dolores tenetur dolor facere amet voluptatem consequatur exercitationem modi ducimus.</P>
+                                                    <img src="IMG_20201107_180824.jpg" height="400" width="500" class=" rounded-circle feedback-img" alt=" ">
+                                                    <h6>MD SAYED</h6>
+                                                  </div>
+                                                  <div class="text-white carousel-item text-center">
+                                                      <P><i style="color: rgb(255, 0, 0);">Lorem2</i> ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                      odio dolores tenetur dolor facere amet voluptatem consequatur exercitationem modi ducimus.</P>
+                                                        <img src="IMG_20201107_180824.jpg" height="400" width="500" class=" rounded-circle feedback-img" alt=" ">
+                                                        <h6>MD SAYED</h6>
+                                                  </div>
+                                                  <div class="text-white carousel-item text-center">
+                                                      <P><i style="color: rgb(255, 238, 0);">Lorem3</i> ipsum dolor sit amet consectetur adipisicing elit. Similique
+                                                      odio dolores tenetur dolor facere amet voluptatem consequatur exercitationem modi ducimus.</P>
+                                                        <img src="IMG_20201107_180824.jpg" height="400" width="500" class=" rounded-circle feedback-img" alt=" ">
+                                                        <h6>MD SAYED</h6>
+                                                  </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Next</span>
+                                                </a>
+                                              </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- carousel section  ***      End here -->
+
+
+                  <!-- service-section   basic boostrap     Start here-->
+                  <div class="service-section">
+                        <div class="title text-center mb-3">
+                        <h3 class="font-wight-bolder">Service</h3>
+                        </div>
+                        <div class="row text-left text-md-center">
+                        <div class="col-lg-3">
+                              <i class="bg-primary mb-3 p-2 fa-2x rounded-circle text-light fas fa-atom"></i>
+                              <h5 class="text-uppercase">Wev Development</h5>                                                   
+                              <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates at soluta pariatur dolores, accusamus quisquam animi sequi reiciendis nulla!</p>
+                        </div>
+                        <div class="col-lg-3">
+                              <i class="bg-primary mb-3 p-2 fa-2x rounded-circle text-light fas fa-atom"></i>
+                              <h5 class="text-uppercase">Digital Marketing</h5>
+                              <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates at soluta pariatur dolores, accusamus quisquam animi sequi reiciendis nulla!</p>
+                        </div>
+                        <div class="col-lg-3">
+                              <i class="bg-primary mb-3 p-2 fa-2x rounded-circle text-light fas fa-atom"></i>
+                              <h5 class="text-uppercase">Wev Designing</h5>
+                              <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates at soluta pariatur dolores, accusamus quisquam animi sequi reiciendis nulla!</p>
+                        </div>
+                        <div class="col-lg-3">
+                              <i class="bg-primary mb-3 p-2 fa-2x rounded-circle text-light fas fa-atom"></i>
+                              <h5 class="text-uppercase">Graphic Designing</h5>
+                              <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptates at soluta pariatur dolores, accusamus quisquam animi sequi reiciendis nulla!</p>
+                        </div>
+                  </div>
+                  </div>
+                  <!-- service-section   basic boostrap     End here-->
+
+                  
+                  <!--  ***    img-fluid img-thumbnail border rounded-circle
+                              d-block m-auto -->
+      <!-- <img src="15531840725c93b5489d84e9.43781620.jpg" class="img-fluid img-thumbnail "> -->
+<img src="download (2).jpg" class="mb-3 img-fluid img-thumbnail border rounded-circle d-block m-auto">
+<!-- <img src="DSC_0045.JPG" class="img-fluid img-thumbnail border rounded-circle d-block m-auto imgs"> -->
+
+
+                  
+                              <!--start= about me section *** jumbotron and alert-->
+                  <div class="about-section mt-4">
+                        <div class="jumbotron pt-3">
+                              <div class="title text-center mb-3">
+                                    <h3 class="font-wight-bolder">About Me</h3>
+                              </div>
+                              <div class="row">
+                                    <div class="col-lg-4 text-center">
+                                          <img class="imgs rounded-circle" src="BestMe_20170305141652.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-8">
+                                          <p class="mb-0">Lorem ipsum dolor  repellendus pedita ipsa voluptatibus reiciendis suscipit numquam autem distinctio consectetur veritatis fugas ex cum, suscipit quae eaque? Quibusdam, facilis dolore!</p>
+                        <!--*** collapse  -->
+                                          <a href="#demo" data-toggle="collapse">learn more </a>
+
+                                          <div id="demo" class="collapse">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta numquam corporis iure culpa quisquam maxime, provident, magnam ratione quos modi officia, iste voluptate harum veritatis impedit? Aut illo repellat ea?</p>
+                                          </div>
+
+
+                                    <!--*** button     -->
+                                          <div class="btn-group mt-3">
+                                                <button class="btn btn-block btn-outline-info mb-2">CD Download</button>
+                                          <button class="btn btn-outline-info mb-2">CD Download</button>
+                                          <a href="#" class="btn btn-outline-info mb-2">visit my channel</a>
+                                          </div>
+
+                                          <div class="alert alert-success alert-dismissable">
+                                                <button class="close" data-dismiss="alert">&times;</button>
+                                                Have you visited my facebook page? <a href="#"> Visit here</a>
+                                          </div>
+                                          <div class="alert alert-light alert-dismissable">
+                                                <button class="close" data-dismiss="alert">&times;</button>
+                                                Have you visited my youtube channel? <a href="#"> Visit here</a>
+                                          </div>
+                                    </div>
+
+                              </div>
+                        </div>
+                  </div>
+                        <!--End here = about me section *** jumbotron and alert-->
+
+
+                        <!-- education section       start here -->
+
+                        <div class="education-section">
+                              <div class="title text-center my-3">
+                                    <h3 class="font-wight-bolder">Education</h3>
+                              </div>
+
+                              <table class="table table-bordered text-center table-hover table-secondary 
+                              table-striped mb-5">
+                                    <thead class="thead-dark">
+                                          <tr>
+                                                <th>Qualificationn</th>
+                                                <th>Institution</th>
+                                                <th>Passing Year</th>
+                                                <th>Grade</th>
+                                          </tr>
+                                    </thead>
+                                    <tbody>
+                                          <tr>
+                                                <td>SSC</td>
+                                                <td>Singerkatch high School and College</td>
+                                                <td>2015</td>
+                                                <td>3.44 / 5.00</td>
+                                          </tr>
+                                          <tr>
+                                                <td>SSC</td>
+                                                <td>Singerkatch high School and College</td>
+                                                <td>2006</td>
+                                                <td>3.43 / 5.00</td>
+                                          </tr>
+                                          <tr>
+                                                <td>SSC</td>
+                                                <td>Singerkatch high School and College</td>
+                                                <td>2018</td>
+                                                <td>3.00 / 5.00</td>
+                                          </tr>
+                                    </tbody>
+                              </table>
+                        </div>
+
+
+                        <!-- education section       End here -->
+
+                        <!-- card design section start here -->
+
+                        <div class="tutorial-section mb-3">
+                              <div class="title text-center mb-3">
+                                    <h3 class="text-primary">SA Tech Institute</h3>
+                              </div>
+
+                              <div class="row bg-light">
+                                    <div class="col-lg-3">
+                                          <div class="card bg-light">
+                                                <img class="card-img-top border rounded-circle" src="Sa BLOG 1 (1).png" alt="card-img">
+                                                <div class="card-body bg-light">
+                                                      <h5 class="card-title text-primary">HTML Course</h5>
+                                                      <p class="card text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iure incidunt ipsam aliquid blanditiis consequuntur?</p>
+                                                      <a class="card-link stretched-link" target="blank" href="#">Join free Course</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                          <div class="card bg-light">
+                                                <img class="card-img-top border rounded-circle" src="Sa BLOG 1 (1).png" alt="card-img">
+                                                <div class="card-body bg-light">
+                                                      <h5 class="card-title text-primary">CSS Course</h5>
+                                                      <p class="card text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iure incidunt ipsam aliquid blanditiis consequuntur?</p>
+                                                      <a class="card-link stretched-link" target="blank" href="#">Join free Course</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                          <div class="card bg-light">
+                                                <img class="card-img-top border rounded-circle" src="Sa BLOG 1 (1).png" alt="card-img">
+                                                <div class="card-body bg-light">
+                                                      <h5 class="card-title text-primary">JS Course</h5>
+                                                      <p class="card text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iure incidunt ipsam aliquid blanditiis consequuntur?</p>
+                                                      <a class="card-link stretched-link" target="blank" href="#">Join free Course</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                          <div class="card bg-light">
+                                                <img class="card-img-top border rounded-circle" src="Sa BLOG 1 (1).png" alt="card-img">
+                                                <div class="card-body bg-light">
+                                                      <h5 class="card-title text-primary">PYTHON Course</h5>
+                                                      <p class="card text">Lorem ipsum consectetur adipisicing elit. Eaque iure incidunt ipsam aliquid blanditiis consequuntur?</p>
+                                                      <a class="card-link stretched-link" target="blank" href="#">Join free Course</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+
+                        <!-- card design section End here -->
+
+
+                        <!-- media object     ***  start -->
+                        <div class="media-section">
+                              <div class="title mb-3 text-center">
+                                    <h4 class="font-wight-bolder text-primary">My Blog</h4>
+                              </div>
+                              <div class="media border border-secondary mb-3 p-3">
+                                    <img style="width: 80px;" class="rounded-circle mr-3" src="sayed500.jpg" alt="img">
+                                    <div class="media-body">
+                                          <h5>I love programming</h5>
+                                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non delectus aperiam accusantium Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sunt! et vitae repudiandae.</p>
+
+                                    </div>
+                              </div>
+                              <div class="media border border-secondary mb-3 p-3">                                  
+                                    <div class="media-body">
+                                          <h5>I love learning</h5>
+                                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non delectus aperiam accusantium Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sunt! et vitae repudiandae.</p>                                         
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officia nostrum et ab similique sit ex accusantium, aspernatur eveniet molestiae reprehenderit possimus culpa! Eius corporis aliquid nobis minus ullam consequatur!</p>
+                                    </div>
+                                    <img style="width: 80px;" class="rounded-circle ml-2 align-self-center" src="sayed500.jpg" alt="img">
+                              </div>
+                              
+                        </div>
+                        <!-- media object       End-->
+
+
+                  <!--*** customer review section *blockquote-footer /abbr* start here -->
+                  <div class="customer-review bg-light text-center">
+                        <div class="title text-center mb-3">
+                              <h3 class="font-wight-bolder text-primary">Customer Review</h3>
+                        </div>
+
+                        <div class="row">
+                              <div class="col-lg-4">
+                                    <blockquote class="blockquote">    <!-- blockquote-footer /abbr-->
+                                          <i class="fas fa-2x p-2 fa-user-circle"></i>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis pariatur animi veritatis praesentium perferendis?
+                                                We can learn <abbr title="bootstrap 4">Bs4</abbr> Aliquid culpa h totam.</p>
+                                          <footer class="blockquote-footer">
+                                                Josim Uddin in <cite>Facebook</cite>
+                                          </footer>
+                                    </blockquote>
+                              </div>
+                              <div class="col-lg-4">
+                                    <blockquote class="blockquote">
+                                          <i class="fas fa-2x p-2 fa-user-circle"></i>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis pariatur animi veritatis praesentium perferendis?
+                                                We can learn <abbr title="bootstrap 4">Bs4</abbr> Aliquid culpa h totam.</p>
+                                          <footer class="blockquote-footer">
+                                                Josim Uddin in <cite>Facebook</cite>
+                                          </footer>
+                                    </blockquote>
+                              </div>
+                              <div class="col-lg-4">
+                                    <blockquote class="blockquote">
+                                          <i class="fas fa-2x p-2 fa-user-circle"></i>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis pariatur animi veritatis praesentium perferendis?
+                                                We can learn <abbr title="bootstrap 4">Bs4</abbr> Aliquid culpa h totam.</p>
+                                          <footer class="blockquote-footer">
+                                                Josim Uddin in <cite>Facebook</cite>
+                                          </footer>
+                                    </blockquote>
+                              </div>
+                        </div>
+                  </div>
+                  <!-- customer review section *blockquote-footer /abbr* End here -->
+
+                  <!-- togolable dynamic tab * start here -->
+                  <div class="other-section">
+                        <ul class="nav nav-pills">           <!-- togolable-tab/pill -->
+                              <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#edu">Education</a></li>
+                              <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">Skill</a></li>
+                              <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+                        </ul>
+                       <div class="tab-content">
+                              <div id="edu" class="tab-pane active"><p>1. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur inventore voluptas, quibusdam eveniet placeat.</p></div>
+                              <div id="skill" class="tab-pane fade"><p>2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur inventore voluptas, quibusdam eveniet placeat.</p></div>
+                              <div id="hobby" class="tab-pane fade"><p>3. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequatur inventore voluptas, quibusdam eveniet placeat.</p></div>
+                        
+                       </div>
+                  </div>
+
+                  <!-- togolable dynamic tab * End here -->
+
+
+                  <!-- student list section start here -->
+                  <div class="student-list mt-2">
+                        <ul class="list-group">
+                              <li class="list-group-item bg-info text-white">Robin</li>
+                              <li class="list-group-item bg-dark text-white">Micle</li>
+                              <li class="list-group-item bg-success text-white">Korim</li>
+                              <a href="#" class="list-group-item list-group-item-action bg-info text-center text-white">Click Here</a>
+                        </ul>
+                  </div>
+                        <!-- student list section End here -->
+
+
+                  <!--***      form  start here       *form/ form-group/ form-control -->
+                  <div class="contact-section bg-primary my-5 p-3 text-white">
+                        <div class="title text-center ">
+                              <h3 class="font-wight-bolder">Contact Me</h3>
+                        </div>
+                        <form action="" class="w-50 m-auto was-validated">
+                              <div class="form-group">
+                                    <label for="fullname">Full Name</label>
+                                    <input type="text" name="fullname" class="form-control" required>
+                                    
+                              </div>                             
+                        
+                              <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" class="form-control" required>
+                                    <div class="valid-feedback">Valid</div>
+                                    <div class="invalid-feedback">Please enter your Email</div>
+                              </div>                            
+                        
+                              <div class="form-group">
+                                    <label for="number">Number</label>
+                                    <input type="number" name="number" class="form-control">
+                              </div>
+                        
+                              <div class="form-group">
+                                    <label for="messege">Messege</label>
+                                    <textarea name="messege" id="" cols="30" class="form-control" rows="3"></textarea>
+                              </div>
+                              <div class="form-group">
+                                    <input type="submit" class="btn btn-info" value="Submit">
+                                    <input type="reset" class="btn btn-info" value="Reset">
+                              </div>
+                        </form>
+                  </div>
+                  <!-- form  End here -->
+
+
+            </main>
+            <footer class="mt-3">
+
+                  <ul class="pagination bg-secondary py-1 justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  </ul>
+            </footer>
+            
+            
+      </div>
+
+<br>
+
+
+
+
+
+
+
+             
+
+<br><br>
+
+             <!--***      col-lg-3 col-md-6 col-sm-12 bg-primary text-body pt-3">
+                        text-light border border-3 border-light rounded  -->
+      <!-- <div class="container">
+            <div class="row">
+                 <div class="col-lg-3 col-md-6 col-sm-12 bg-primary text-body pt-3 ">
+                         <h2 class="text-light border border-3 border-light rounded rounded-3
+                         ">Bootstrap 1</h2>
+                        voluptate repellat nam quis laborum iure officia quas? Nesciunt maiores tempore exercitationem ducimus enim!
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12 bg-secondary text-body">
+                         <h2 class="text-light">Bootstrap 2</h2>
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae enim quos illo veniam architecto velit, voluptate at vero laborum facilis! Tenetur iusto exercitationem repudiandae quia facilis vero, blanditiis iure quos?
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12 bg-info text-body">
+                         <h2 class="text-light">Bootstrap 3</h2>
+                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum saepe aperiam explicabo ut adipisci maiores inventore aspernatur recusandae quas ratione. Est eos harum necessitatibus culpa voluptatibus eum veniam quasi at!
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12 bg-success text-body">
+                         <h2 class="text-light">Bootstrap 4</h2>
+                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum praesentium molestiae, aliquam officia illo nesciunt nobis temporibus debitis modi magnam ab, ducimus harum, sint facilis unde minus sed aut beatae?
+                 </div>
+            </div>
+         </div> -->
+ 
+ 
+ 
+ 
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
